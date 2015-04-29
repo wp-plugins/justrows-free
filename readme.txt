@@ -23,7 +23,7 @@ The generated galleries may be customized using one of many user-created configu
 
 1. In the "JustRows" menu on the left, click "Create configuration".
 1. The "Add new configuration" panel will open.
-1. Give the configuration a name and change the option as you see fit, then hit the "Save" button at the bottom.
+1. Give the configuration a name and change the options as you see fit, then hit the "Save" button at the bottom.
 
 = Show the gallery =
 
