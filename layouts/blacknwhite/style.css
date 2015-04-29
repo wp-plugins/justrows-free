@@ -1,0 +1,96 @@
+
+/* Black n' White */
+
+.justrows-theme-blacknwhite .jr-element{
+	position: relative;
+}
+
+.justrows-theme-blacknwhite .jr-element .jr-caption{
+	z-index: 50;
+	opacity: 0;
+	-webkit-transition-duration: 700ms;
+    -moz-transition-duration: 700ms;
+    -o-transition-duration: 700ms;
+    transition-duration: 700ms;
+}
+
+.justrows-theme-blacknwhite .jr-element:hover .jr-caption{
+	opacity: 1;
+}
+
+.justrows-theme-blacknwhite .jr-element img{
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+	-webkit-transition-duration: 500ms;
+    -moz-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.justrows-theme-blacknwhite .jr-element:hover img{
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(0%);
+}
+
+/* Classic - append button */
+
+.justrows-theme-blacknwhite .jr-append-btn {
+	display: inline-block;
+	margin-left: 15px;
+	margin-bottom: 30px;
+	padding: 0.5em 0.8em;
+	border: 1px solid #000033;
+	background-color: #0066CC;
+	color: #F8F8FF;
+	font: 80% 'Lucida Grande','Lucida Sans Unicode','Trebuchet MS',sans-serif;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.justrows-theme-blacknwhite .jr-append-btn:active {
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

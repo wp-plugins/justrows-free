@@ -1,0 +1,69 @@
+
+/* Elegant */
+
+.justrows-theme-elegant .jr-element{
+	position: relative;
+}
+
+.justrows-theme-elegant .jr-element .jr-caption{
+	z-index: 50;
+	opacity: 0;
+	-webkit-transition-duration: 700ms;
+    -moz-transition-duration: 700ms;
+    -o-transition-duration: 700ms;
+    transition-duration: 700ms;
+}
+
+.justrows-theme-elegant .jr-element:hover .jr-caption{
+	opacity: 1;
+}
+
+.justrows-theme-elegant .jr-element:after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 40;
+	background-color: rgba(0,0,0,0.2);
+	-webkit-transition-duration: 700ms;
+    -moz-transition-duration: 700ms;
+    -o-transition-duration: 700ms;
+    transition-duration: 700ms;
+}
+
+.justrows-theme-elegant .jr-open:after,
+.justrows-theme-elegant .jr-element:hover:after{
+	background-color: rgba(0,0,0,0);
+}
+
+/* Elegant - append button */
+
+.justrows-theme-elegant .jr-append-btn {
+	display: inline-block;
+	margin-left: 15px;
+	margin-bottom: 30px;
+	padding: 0.5em 0.8em;
+	border: 1px solid #000033;
+	background-color: #0066CC;
+	color: #F8F8FF;
+	font: 80% 'Lucida Grande','Lucida Sans Unicode','Trebuchet MS',sans-serif;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.justrows-theme-elegant .jr-append-btn:active {
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.6);
+}
