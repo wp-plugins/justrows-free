@@ -4,7 +4,7 @@
  * Plugin Name: JustRows FREE
  * Plugin URI: http://www.canaveralstudio.com
  * Description: Used to create a justified image gallery
- * Version: 0.1
+ * Version: 0.2
  * Author: Canaveral Studio
  * Author URI: http://www.canaveralstudio.com
  *
