@@ -3,7 +3,7 @@ Contributors: canaveralstudio
 Tags: gallery, image grid, google images, images, image, grid, responsive, justified, rows, pictures, thumbnails, shortcode, posts
 Requires at least: 3.5
 Tested up to: 4.2
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,7 +43,11 @@ Place the JustRows widget somewhere in your template, or use the shortcode [just
 == Changelog ==
 = 0.1 =
 * Initial release.
+= 0.2 =
+* Added "caption visible" layouts.
 
 == Upgrade Notice ==
 = 0.1 =
 This version is the initial release.
+= 0.2 =
+Added "caption visible" layouts.
